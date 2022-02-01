@@ -1,0 +1,81 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="logo.svg" alt="" class="logo" id="top">
+      <div class="nav">
+        <nav">
+          <a href="#">Home</a>
+          <a href="#">News</a>
+          <a href="#">Login</a>
+          </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <div class="container">
+        <div class="left">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, vitae quidem nulla omnis       
+            impedit vero perspiciatis quae quam expedita voluptate reprehenderit repudiandae cupiditate earum fugiatnobisporro
+            molestiae totam voluptatibus. Culpa quas porro deserunt accusantium optio rem. Ut aperiam, nam repellendus
+            illo dignissimos deleniti minima voluptatibus cumque unde impedit pariatur
+          </p>
+        </div><!--
+        --><div class="right">
+          <img src="download.jpg" alt="">
+        </div>
+      </div>
+    </article>
+    <section class="gallery container">
+      <div class="row1">
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+      </div>
+      <div class="row2">
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+      </div>
+      <button><a href="#top">BACK</a></button>
+    </section>
+  </main>
+  <footer class="container clearflow">
+    <div class="left-foot">
+      <p>All rights reserved</p>
+    </div><!--
+     --><div class="right-foot">
+      <a href="#">Privacy</a>
+    </div>
+  </footer>
+</body>
+
+</html>
+   
