@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: blue;
+  height: 75px;
+}
+header h1{
+  float: left;
+}
+.clearfix::after, .clearfix::before{
+  content: "";
+  display: table;
+}
+.clearfix::after{
+  clear: both;
+}
+header nav{
+  float: right;
+  padding: 25px 15% 25px 0 ;
+}
+.head{
+  padding: 10px 5%;
+}
+main div{
+  width: 31.33%;
+  float: left;
+ margin: 0px 1%;
+}
+img{
+  width: 100%;
+}
